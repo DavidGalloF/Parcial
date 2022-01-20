@@ -7,3 +7,9 @@ function captura(){
     localStorage.setItem("textvalue3",telefono);
     location.href= "result.html";
 }
+function restar(){
+    document.getElementById("nombre").value="";
+    document.getElementById("email").value="";
+    document.getElementById("tel").value="";
+    document.getElementById("nombre").focus();
+}
