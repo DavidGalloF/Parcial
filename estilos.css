@@ -1,0 +1,156 @@
+.caja2{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+  background-color: rgba(50, 50, 50, 0.08);
+	border-radius:3px;
+  width: 350px;
+  height: 70%;
+  margin: 0;
+}
+.caja{
+	position:absolute;
+	left:50%;
+	top:50%;
+  width: 300px;
+  padding:10px 10px;
+  margin: 0;
+	transform: translate(-50%,-50%);
+  background-color: white;
+	border-radius:3px;
+}
+
+.titulo {
+  color:#aaa;
+  text-align: center;
+  font-size: 2em;
+  position:absolute;
+  left:50%;
+	top:0%;
+	transform: translate(-50%,-100%);
+}
+
+.desta {
+  font-weight: bold;
+  color: #333333;
+}
+
+.subtitulo {
+  text-align: center;
+  color:#aaa;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.advertencia {
+  font-size: 12px;
+  color:#aaa;
+}
+
+.enlace {
+  text-decoration: none;
+  padding: 15px 
+}
+
+
+
+
+.caja3 {
+  position:absolute;
+	left:50%;
+	top:50%;
+  width: 300px;
+  padding:0;
+  margin: 0;
+	transform: translate(-50%,-50%);
+  background-color:#1f90b3;
+	border-radius:3px;
+}
+
+.carita {
+  padding:0;
+  margin: 0;
+  width: 100%;
+  height: 32%;
+}
+
+.atributo {
+  padding:0;
+  margin: 0;
+  width: 100%;
+  height: 17%;
+  background-color: #eee;
+  border: 1px solid #aaa;
+}
+
+.atributos {
+  color:blue;
+  width: 30%;
+}
+
+.nombre {
+  font-size: 30px;
+}
+
+.email {
+  background-color: blue;
+  border-radius:3px;
+  width: 70%;
+}
+
+.telefono {
+  background-color: #1f90b3;
+  border-radius:3px;
+  width: 70%;
+}
+
+.gusto {
+  background-color: green;
+  border-radius:3px;
+  width: 70%;
+}
+
+.porcentaje {
+  background-color: red;
+  border-radius:3px;
+  width: 70%;
+}
