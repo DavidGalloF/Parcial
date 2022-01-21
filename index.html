@@ -34,7 +34,32 @@
                         <input type="text" placeholder="Telfono" name="tel" id="tel">
                         <i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
                     </div>
-                    <br>
+                    <div class="gus">
+                        <div class="inputGustos">
+                            <input type="text"  name="gusto" id="gusto">
+                        </div>
+                        <div>
+                            <button class="btn btn-outline-success butongus" type="button" onclick="anadir()">Gustos</button>
+                        </div>
+                    </div>
+                    <div class="row tabla shadow-sm">
+                        <div class="izq">
+                            <div class="form-group">
+                                <th><i class="far fa-flag fa-2x bandera"></i></th>
+                            </div>
+                        </div>
+                        <div class="der">
+                            <div class="form-group">
+                                <table id="tablagustos" class="table table-bordered table-hover">
+                                    <tr>
+                                        <td>Gusto</td>
+                                        <td>%</td>
+                                        <td>edit</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                     <div>
                         <p class="advertencia">Pule Aceptar para guardar los cambios o Cancelar para anularlos</p>
                         <button class="btn btn-outline-success" type="button" onclick="captura()">Aceptar</button>

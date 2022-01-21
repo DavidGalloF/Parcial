@@ -13,3 +13,21 @@ function restar(){
     document.getElementById("tel").value="";
     document.getElementById("nombre").focus();
 }
+function anadir(){
+    event.preventDefault();
+    var gust= document.getElementById("gusto").value;
+    let tableRef = document.getElementById("tablagustos");
+    let newTableRowRef = tableRef.insertRow(-1);
+
+    let newTypeCellRef = newTableRowRef.insertCell(0);
+    newTypeCellRef.textContent = gust;
+
+    newTypeCellRef = newTableRowRef.insertCell(1);
+    newTypeCellRef.textContent = 0;
+
+    newTypeCellRef = newTableRowRef.insertCell(2);
+    newTypeCellRef.textContent = 0;
+
+    document.getElementById("gusto").value="";
+    document.getElementById("gusto").focus();
+}

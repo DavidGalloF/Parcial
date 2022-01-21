@@ -81,14 +81,62 @@ input[type="text"]:focus {
   border-radius: 4px 0 0 4px;
 }
 
+.gus {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.inputGustos {
+  width: 77.5%;
+}
+
+.butongus {
+  margin-top: 8px;
+  padding: 9px;
+}
+
+.tabla {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-between;
+  width: 95%;
+  padding: 8px;
+  margin-left: 5px;
+}
+
+.izq {
+  background-color: green;
+  width: 14%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.der {
+  width: 85%;
+}
+
+.bandera {
+  color: #fff;
+  transform: translate(0%,40%);
+  padding: 0px;
+}
+
+
 .advertencia {
   font-size: 12px;
   color:#aaa;
+  margin-top: 15px;
 }
 
 .enlace {
   text-decoration: none;
-  padding: 15px 
+  margin: 0px;
+  padding-left: 15px;
 }
 
 
@@ -147,7 +195,7 @@ input[type="text"]:focus {
   background-color: blue;
   color: #fff;
   border-radius:3px;
-  
+  padding:1px;
 }
 
 .telefono {
@@ -155,6 +203,7 @@ input[type="text"]:focus {
   background-color: #1f90b3;
   border-radius:3px;
   color: #fff;
+  padding:1px;
 }
 
 .gusto {
@@ -162,12 +211,14 @@ input[type="text"]:focus {
   background-color: green;
   border-radius:3px;
   color: #fff;
+  padding:1px;
 }
 
 .porcentaje {
   margin: 0;
   background-color: red;
   border-radius:3px;
+  padding:1px;
 }
 
 
