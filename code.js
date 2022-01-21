@@ -12,6 +12,7 @@ function restar(){
     location.href= "index.html";
 }
 function anadir(){
+    //document.getElementById("ocultar").style.display = "block";
     event.preventDefault();
     var gust= document.getElementById("gusto").value;
     let tableRef = document.getElementById("tablagustos");

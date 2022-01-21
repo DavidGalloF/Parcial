@@ -6,7 +6,8 @@
   background-color: rgba(50, 50, 50, 0.08);
 	border-radius:3px;
   width: 400px;
-  height: 70%;
+  height: 85%;
+  min-height: 700px;
   margin: 0;
 }
 .caja{
@@ -131,7 +132,6 @@ input[type="text"]:focus {
 .bandera {
   color: #fff;
   position: relative;
-  color: #aaa;
   font-size: 30px;
   left: -7px;
   top: -7px;
@@ -247,3 +247,8 @@ input[type="text"]:focus {
   height: 100%;
   font-size: 70px;
 }
+
+
+/*.ocultar {
+  display: none;
+}*/
